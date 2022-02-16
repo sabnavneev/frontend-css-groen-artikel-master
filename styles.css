@@ -1,0 +1,77 @@
+body{
+    background-color: hsl(74, 95%, 93%);
+    font-family: "Lucida Grande", Arial, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #000;
+}
+
+header {
+    width: 1000px;
+    background-color: hsl(63, 56%, 38%);
+    border: 3px dashed hsl(63, 56%, 10%);
+    position: fixed;
+    top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+
+main {
+    width: 1000px;
+    height: 100%;
+    background-color: hsl(74, 95%, 93%);
+    position: relative;
+    top:120px;
+    border: 3px;
+    border-color: #000;
+    border-style: double;
+    z-index: 1;
+}
+
+article {
+    width: 900px;
+    background-color: hsl(63, 40%, 80%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 35px;
+    border-style: solid;
+    border-width: 2px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-color: hsl(63, 56%, 38%);
+    border-top-color: hsl(63, 56%, 38%);
+    border-left-color: hsl(63, 56%, 38%);
+    border-right-color: hsl(63, 56%, 38%);
+}
+
+h1 {
+    text-align: center;
+    color: hsl(360, 100%, 100%);
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+
+.circle-one {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 10px hsl(23, 100%, 65%);
+    background-color: hsl(23, 100%, 65%);
+    margin-right: 20px;
+}
+
+.circle-two {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-shadow: 6px 7px 4px -2px #000;
+    background-color: hsl(23, 100%, 65%);
+}
